@@ -9,6 +9,12 @@ import (
 	"strings"
 )
 
+var Config GotDot
+
+func init() {
+	Config = NewGotDot()
+}
+
 type IConfig interface {
 	Get(string) (*IConfigVar, error)
 	Load()
