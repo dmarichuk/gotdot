@@ -11,7 +11,6 @@ Simple module to export env variables from .env-like files
 package main
 
 import (
-	"fmt"
     "os"
 
     "github.com/dmarichuk/gotdot"
