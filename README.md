@@ -30,7 +30,7 @@ func main() {
 	// Now you can use os.Expandenv to include your env variables to
 	example := os.Expandenv("$VAR1 - $VAR2")
 	
-	// If neede, one can cast env variable to another type
+	// If needed, one can cast env variable to another type
 	
 	envValue, _ := c.Get("VAR1") // Get variable from inner struct, error if not exist
 	envValue.Cast("int") // as int64
