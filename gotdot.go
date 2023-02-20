@@ -51,7 +51,7 @@ func (c *GotDot) Load() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer dotfile.close()
+	defer dotfile.Close()
 	
 	scanner := bufio.NewScanner(dotfile)
 
