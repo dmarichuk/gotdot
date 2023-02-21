@@ -7,7 +7,7 @@ Simple module to export env variables from .env-like files
 
 # Examples
 
-```
+```go
 package main
 
 import (
